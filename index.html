@@ -4,7 +4,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">
 <style>
 body {font-family: "Lato", sans-serif;}
 
@@ -48,11 +47,11 @@ a.one:link {text-decoration: none;}
     } 
           
 .w3-lobster {
-  font-family: "Lobster", Sans-serif;
+  font-family: "Lato", Sans-serif;
 }
   
  hr.new5 {
-  border: 10px solid gray;
+  border: 5px solid gray;
   border-radius: 3px;
 }
  hr.new3 {
@@ -66,11 +65,11 @@ a.one:link {text-decoration: none;}
 
     .main {
         height: 100%;
-        margin-left: 310px; /* Same as the width of the sidenav */
+        margin-left: 350px; /* Same as the width of the sidenav */
         width: 890px;
-        top: 10;
+        top: 0;
         padding: 0px 10px;
-        background-color: rgb(205, 239, 239);
+        background-color: rgb(255, 255, 255);
     }
 .center {
   display: block;
@@ -94,7 +93,6 @@ a.one:link {text-decoration: none;}
 <div class="sidebar">
   <a href="https://wsu.edu" target="_blank"><img src="./pics/wsu.png" alt="WSU" width="192" height="88" border="0"></a>
   <hr class="new3">
-  <a href="https://gayukrishna.github.io/" target="_blank"><i class="fa fa-home"></i>&nbsp Home</a>
   <a href="https://www.linkedin.com/in/gayathri-krishnamoorthy-6613b9a6/" target="_blank">
     <i class="fa fa-linkedin-square"></i>&nbsp LinkedIn </a>
   <a href="https://github.com/gayukrishna" target="_blank"><i class="fa fa-github"></i>&nbsp Github</a>
@@ -102,85 +100,125 @@ a.one:link {text-decoration: none;}
   <hr class="new3">
   <a href="files/publications.pdf" target="_blank"><i class="fa fa-book"></i>&nbsp Publications</a>
   <hr class="new3">
-  <a href="files/Gayathri_CV.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>&nbsp Recent CV</a>
+  <a href="files/Gayathri_CV.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>&nbsp CV</a>
   <hr class="new3">
   <br /> 
 
 </div>
 
 <div class="main">
-  <div id="layout-content">
-    <div id="toptitle">
-    
-        <div class="w3-container w3-lobster font-effect-brick-sign">
-        <p class="w3-xxlarge"><h4><font size="7">Gayathri Krishnamoorthy</font></h4></p> </div>
-    <hr class="new5">
-</div>
+ 
 <table class="imgtable"><tr><td>
-  <img src="./pics/g3_pic.jpg" alt="Gayathri" width="158" height="220" />&nbsp </td>
-  <td align="left"><p><br /><font size="5" color="#8B0000"><b><u>About me</u>:</b></font> <br /> <br /> 
+
+    <img src="./pics/pic2.jpg"
+         width=158
+         height=220
+         onmouseover="rollover(this)"
+         onmouseout="mouseaway(this)" />
+
+    <script type="text/javascript">
+        function rollover(my_image) {
+            my_image.src = './pics/g3_pic.jpg';
+        }
+    </script>
+
+    <script type="text/javascript">
+        function mouseaway(my_image) {
+                        < !--my_image.src = './pics/pic1.jpg'; -->
+                my_image.src = './pics/pic2.jpg';
+        }
+    </script>
+    <br>
+    <font size="2">
+        &nbsp;&nbsp;
+        <i> Curious? Just  hover! </i>
+    </font>
+
+    <!-- <img src="./pics/g3_pic.jpg" alt="Gayathri" width="158" height="220" />&nbsp-->
+</td>
+
+  <td align="left"><p><br /><font size="5" color="#1fc1c1"><b><u>About me</u>:</b></font> <br /> <br /> 
   Ph.D. Candidate <br /> 
-  School of Electrical Engineering and Computer Science<br /> 
+  School of Electrical Engineering and Computer Science (EECS)<br /> 
   Washington State University <br /> 
   Pullman, Washington, USA <br /></p>
-    <p><font size="5" color="#8B0000"><b><u>Contact</u>:</b></font> <br /> <br />  
- <a><i class="fa fa-institution" aria-hidden="true"></i>&nbsp 305 NE Spokane St. (ETRL 204) Pullman, WA</a> <br /> 
+
+<p><font size="5" color="#1fc1c1"><b><u>Contact</u>:</b></font> <br /> <br />  
+ <a><i class="fa fa-institution" aria-hidden="true"></i>&nbsp Washington State University Arboretum, ETRL 204, Pullman, WA 99163</a> <br /> 
  <a><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp g.krishnamoorthy@wsu.edu</a><br /> 
  <a><i class="fa fa-phone" aria-hidden="true"></i>&nbsp (509) 592-1317</a><br /> 
   </td></tr>  </table>
   
-  <p><font size="5" color="#8B0000"><b><u>Research Interests</u></b></font></p>
+  <p><font size="5" color="	#1fc1c1"><b><u>Research Interests</u></b></font></p>
   <ul>
-  <li><p>Electric power systems</p>
-  </li>
-  <li><p>Transmission and Distribution Co-Simulation</p>
-  </li>
-  <li><p>Advancements in AI</p>
-  </li>
-  <li><p>Renewable Resource Integration</p>
-  </li>
+      <li>
+          <p>Power Systems - Transmission and Distribution Co-Simulation</p>
+      </li>
+      <li>
+          <p>Distributed Renewable Resource Integration</p>
+      </li>
+      <li>
+          <p>Advancements in AI</p>
+      </li>
+      <li>
+          <p>Robotics</p>
+      </li>
   </ul>
     
-  </td></tr></table>
- <p><font size="5" color="#8B0000"><b><u>Education</u></b></font></p>
-  <ul>
-  <p> 
-  <li>Ph.D. in Electrical Engineering (Jan 2019-Present)
-  </li>
-  <dt>- Washington State University, Pullman, WA, USA </dt>
-  </p>
-  <p>
-  <li>M.S. in Electrical Engineering (2016-2018)
-  </li>
-  <dt>- Washington State University, Pullman, WA, USA </dt>
-  </p>
-  <li>B.E. in Electrical Engineering (2012-2016)
-  </li>
-  <dt>- Anna University, Chennai, India</dt> 
-  </ul>
-  </td></tr></table>
-  
-  </td></tr></table>
-  <p><font size="5" color="#8B0000"><b><u>Employment</u></b></font></p>
-  <ul>
-  <li>Graduate Teaching Assistant (Jan. 2019- Present)
-  </li>
-  <dt>- Washington State University, Pullman, WA, USA</dt>
-   
-  <p>
-  <li>Graduate Summer Intern (May 2018- Dec 2018)
-  </li>
-  <dt>- Pacific Northwest National Laboratory, Seattle, WA, USA</dt>
-  </p>
+ 
+ <p><font size="5" color="	#1fc1c1"><b><u>Education</u></b></font></p>
+ <ul>
+     <p>
+     <li>
+         Ph.D. in Electrical Engineering (Jan 2019-Present)
+     </li>
+     <dt>- Washington State University, Pullman, WA, USA </dt>
+     </p>
 
-  <p>
-  <li>Graduate Research Assistant (Aug. 2016- Apr. 2018)
-  </li>
-  <dt>- Washington State University, Pullman, WA, USA</dt>
-  </p>
+     <p>
+     <li>
+         M.S. in Electrical Engineering (2016-2018)
+     </li>
+     <dt>- Washington State University, Pullman, WA, USA </dt>
+     </p>
+
+     <p>
+     <li>
+         B.E. in Electrical Engineering (2012-2016)
+     </li>
+     <dt>- Anna University, Chennai, India</dt>
+     </p>
+
+ </ul>
+
+  <p><font size="5" color="	#1fc1c1"><b><u>Employment</u></b></font></p>
+
+  <ul>
+      <p>
+      <li>
+          Graduate Teaching Assistant (Jan. 2019- Present)
+      </li>
+      <dt>- Washington State University, Pullman, WA, USA</dt>
+      </p>
+
+      <p>
+      <li>
+          Graduate Summer Intern (May 2018- Dec 2018)
+      </li>
+      <dt>- Pacific Northwest National Laboratory, Seattle, WA, USA</dt>
+      </p>
+      
+      <p>
+      <li>
+          Graduate Research Assistant (Aug. 2016- Apr. 2018)
+      </li>
+      <dt>- Washington State University, Pullman, WA, USA</dt>
+      </p>
+
 
   </ul>
- <hr class="new5">
+
+
   <a href="https://www.facebook.com/profile.php?id=100004511297472" target="_blank"><i class="fa fa-facebook"></i></a>
 &nbsp &nbsp &nbsp
   <a href="https://twitter.com/gayathr39703432" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -194,13 +232,6 @@ a.one:link {text-decoration: none;}
   </div>
   </div>
   </div>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-57090508-1', 'auto');
-    ga('send', 'pageview');
      
 </body>
 </html> 
